@@ -1,0 +1,398 @@
+body{
+    margin: 0;
+    font-family: 'Teko', sans-serif;
+    background-color: rgb(224, 224, 224);
+ }
+ 
+ header{
+    color: rgb(255, 255, 255);
+    background-image: url(image/697445.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 35vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid black;
+ }
+ header:before{
+    content: "";
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 60px;
+    bottom: 0;
+    height: 30vw -60px;
+    width: 100%;
+ }
+ 
+ header nav{
+    background-color:rgba(54, 179, 168, 0.75);
+    height: 60px;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+ }
+ 
+ header nav a{
+    color: black;
+    background-color: rgba(221, 221, 221, 0.876);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1px 18px ;
+    font-size: 27px;
+ }
+ 
+ header nav a:hover{
+    color: yellow;
+    background-color: rgba(78, 78, 78, 0.548);
+ }
+ 
+
+ #LOGO_DRONE_NAV{
+    height: 80px;
+    width: 150px;
+ }
+ 
+/*=======================================================================================================*/
+
+
+ div.titolo{
+ margin-top: 60px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+ }
+ 
+ header h1{
+    text-align: center;
+    z-index: 1;
+ }
+ 
+ header h1 em{
+    color: yellow;
+   font-size: 5vw;
+   letter-spacing: 2px;
+   text-shadow: -4px 0 #000, 0 4px #000, 4px 0 #000, 0 -4px #000;
+ }
+ 
+ header h1 strong{
+    font-size: 4.1vw;
+    color: rgb(2, 2, 2);
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgba(190, 186, 186, 0.952);
+    padding: 2px 20px ;
+    max-width: 780px;
+    margin-top: 100px;
+ }
+ 
+ a.button{
+    padding: 2px 20px;
+    color: yellow;
+    border: 2px solid yellow;
+    background-color: rgba(78, 78, 78, 0.685);
+    border-radius: 18px;
+    font-size: 2.5vw;
+ }
+ 
+ a.button:hover{
+    background-color:rgba(54, 179, 168, 0.75);
+    color: yellow;
+ }
+ 
+
+ /*=======================================================================================================*/
+
+ section{
+    padding: 14px 18px 18px 18px;
+   
+}
+
+.flex_container{
+    margin-top: 10px;
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  
+  }
+ 
+#carrello{
+    width: 70%;
+    margin-left: 2%;
+}
+
+
+#carrello img{
+
+    height: 15rem;
+    width:43%;
+    border-radius: 4px;
+}
+#carrello .contenuto{
+    padding: 1vw 2vw 2vw 2vw;
+    border: 2px solid grey;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+#carrello .contenuto h1{
+    display: flex;
+    font-size: 2.5vw;
+    color: rgb(53, 126, 110);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+#carrello .contenuto h2{
+    display: flex;
+    font-size: 1.7vw;
+}
+
+#carrello .contenuto h3{
+    display: flex;
+    font-size: 1.9vw;
+    color: rgb(180, 118, 1);
+
+}
+
+
+#carrello .contenuto a{
+    padding: 0px;
+    font-size: 1.5vw;
+    background-color: grey;
+    border-radius: 4px;
+    padding: 2px 13px;
+   color: black;
+
+}
+
+#carrello .contenuto a:hover{
+    color: rgb(255, 0, 0);
+}
+
+
+/*=======================================================================================================*/
+
+.flex{
+    display: flex;
+}
+
+div.flex div{
+    margin-left: 50px;
+}
+
+
+
+#ordine h4{
+    font-size: 1.8vw;
+}
+
+#ordine{
+    width: 23%;
+    height: 12vw;
+    text-align: center;
+    margin-top: 20px;
+    color: orange;
+    background-color: rgb(71, 145, 129);
+    border-radius: 4px;
+}
+
+label.button input{
+    background-color: yellow;
+    color: black;
+    border-radius: 4px;
+    font-size: 25px;
+    cursor: pointer;
+    width: 80%;
+    
+}
+
+label.button input:hover{
+   
+    background-color: rgb(219, 70, 11);
+    color: black;
+}
+
+
+/*=======================================================================================================*/
+
+
+footer.piede{
+    font-family: monospace;
+    height: 80px;
+    background-color: rgb(71, 145, 129);
+    color: yellow;
+    border-top: 2px solid black;
+    margin: 0;
+ }
+ 
+ p.profilo_footer{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+ }
+
+
+/*=======================================================================================================*/
+
+@media(max-width: 700PX){
+
+
+    header{
+        height:70vw;
+     }
+  
+     header:before{
+        content: "";
+        background-color: rgba(0, 0, 0, 0.3);
+        position: absolute;
+        top: 12vw;
+        bottom: 0;
+        height: 80vw -12vw;
+        width: 100%;
+     }  
+     header nav{
+        background-color: rgb(39, 153, 144);
+        height: 12vw;
+        border-bottom: 2px solid black;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+     }
+     
+     header nav a{
+        padding: 1px 10px ;
+        font-size: 5vw;
+     }
+     header h1 em{
+        
+        font-size: 7vw;
+        letter-spacing: 2px;
+        text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+     }
+  
+     header h1 strong{
+        font-size: 6.5vw;
+        padding: 2px 5px ;
+     }
+     a.button{
+        padding: 2px 20px;
+        color: yellow;
+        border: 2px solid yellow;
+        background-color: rgba(78, 78, 78, 0.685);
+        border-radius: 10px;
+        font-size: 4vw;
+     }
+     
+     #LOGO_DRONE_NAV{
+        height: 10vw;
+        width: 15vw;
+     }
+
+
+
+     .flex_container{
+        display: block !important;
+    }
+
+
+    div.contenuto{
+        margin-top: 10px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+      }
+
+
+    div.flex{
+        
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+
+    #carrello{
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    #carrello .contenuto div{
+        margin: 20px 0PX 10PX 0PX ;
+    }
+
+    #carrello .contenuto h1{
+        display: flex;
+        font-size: 8vw;
+        color: rgb(53, 126, 110);
+        margin-left: 5px;
+    }
+
+    #carrello img{
+
+        height: 10rem;
+        width:90%;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-radius: 4px;
+    }
+
+
+    #carrello .contenuto h2{
+        display: flex;
+        font-size: 4vw;
+        margin: 0px ;
+    }
+    
+    #carrello .contenuto h3{
+        display: flex;
+        font-size: 5vw;
+        color: rgb(180, 118, 1);
+        margin: 0px ;
+    }
+
+
+    #carrello .contenuto a{
+        padding: 0px;
+        font-size: 4vw;
+        background-color: grey;
+        border-radius: 4px;
+        padding: 2px 13px;
+       color: black;
+    
+    }
+    
+    #carrello .contenuto a:hover{
+        color: rgb(255, 0, 0);
+    }
+
+
+
+
+    #ordine h4{
+        font-size: 5vw;
+        padding-top: 4vw;
+    }
+
+    #ordine{
+        width: 70%;
+        margin-left: 15%;
+        height: 30vw;
+    }
+
+
+
+     footer.piede{
+        height: 14vw;
+     }
+     
+     p.profilo_footer{
+  
+        font-size:3vw;
+     }
+
+
+}
+

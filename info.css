@@ -1,0 +1,477 @@
+body{
+   margin: 0;
+   font-family: 'Teko', sans-serif;
+   background-color: rgb(224, 224, 224);
+}
+
+header{
+   color: rgb(255, 255, 255);
+   background-image: url(image/INFO-H.webp);
+   background-position: center;
+   background-size: cover;
+   height: 40vw;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   border-bottom: 2px solid black;
+}
+header:before{
+   content: "";
+   background-color: rgba(0, 0, 0, 0.3);
+   position: absolute;
+   top: 60px;
+   bottom: 0;
+   height: 40vw -60px;
+   width: 100%;
+}
+
+header nav{
+   background-color:rgb(39, 153, 144);
+   height: 60px;
+   border-bottom: 2px solid black;
+   display: flex;
+   justify-content:space-around;
+   align-items: center;
+}
+
+header nav a{
+   color: black;
+   background-color: rgba(221, 221, 221, 0.876);
+   border: 1px solid black;
+   border-radius: 10px;
+   padding: 1px 18px ;
+   font-size: 27px;
+}
+
+header nav a:hover{
+   color: yellow;
+   background-color: rgba(78, 78, 78, 0.548);
+}
+
+#LOGO_DRONE_NAV{
+   height: 80px;
+   width: 150px;
+}
+
+/*=======================================================================================================*/
+
+div.titolo{
+   margin-top: 60px;
+   display: flex;
+   justify-content:space-around;
+   align-items: center;
+}
+
+
+header h1{
+   text-align: center;
+   z-index: 1;
+}
+
+header h1 em{
+   color: yellow;
+   font-size: 5vw;
+   letter-spacing: 2px;
+   text-shadow: -4px 0 #000, 0 4px #000, 4px 0 #000, 0 -4px #000;
+}
+
+header h1 strong{
+   font-size: 4.1vw;
+   color: rgb(2, 2, 2);
+   font-family:'Times New Roman', Times, serif;
+   background-color: rgba(190, 186, 186, 0.952);
+   padding: 2px 20px ;
+   border-radius: 5px; 
+   max-width: 780px;
+   margin-top: 100px;
+}
+
+a.button{
+   padding: 10px 10px;
+   color: yellow;
+   border: 2px solid yellow;
+   background-color: grey;
+   border-radius: 20px;
+   font-size: 30px;
+}
+
+a.button:hover{
+   background-color:rgba(54, 179, 168, 0.75);
+   color: rgb(246, 246, 246);
+}
+
+#logo{
+   position: relative;
+   text-align: center;
+}
+
+#logo img{
+   margin-top: -10px;
+   height: 15vw;
+   width: 15vw;
+   border: 2px solid black;
+   border-radius: 100%;
+}
+
+p.profilo1{
+   text-align: center;
+   font-weight: bold;
+   font-size: 4vw;
+   margin-top: 10px;
+   color: yellow;
+
+}
+p.profilo2{
+   margin-top: -70px;
+   text-align: center;
+   font-size: 3vw;
+   color: yellow;
+}
+
+/*=======================================================================================================*/
+
+.contenitore{
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   width: 70%;
+   margin: auto;
+}
+
+
+div.contenitore .blocco{
+   display: flex;
+   justify-content: flex-start;
+   flex-grow: 1;
+   width: 100%;
+}
+
+
+div.contenitore .blocco .articolo{
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+   width: 66vw;
+   padding: 60px 0px 60px 40px;
+   margin: 0px;
+
+}
+
+div.contenitore .blocco .articolo .dentro{
+   display: flex;
+   height: 100%;
+   width:auto;
+   margin: 0px;
+}
+
+.blocco .articolo h1 {
+   text-align:center;
+   font-size: 50px;
+   margin-top: -20px;
+   color: rgb(53, 126, 110);
+}
+
+#grassetto {
+   font-size: 3vw;
+   color: rgb(39, 153, 144);;
+   margin-bottom: auto;
+   margin-top: auto;
+}
+.blocco .articolo h2 {
+   font-size:2vw;
+   margin-left: 20px;
+}
+
+
+a{
+   color: rgb(39, 153, 144);;
+}
+a:hover{
+   color: yellow;
+}
+
+.blocco .articolo .testo{
+   text-align: left;
+   font-size: 22px;
+   letter-spacing: 1px;
+   margin-inline: 5px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   line-height: 25px;
+}
+
+div.contenitore div.blocco .numero{
+   font-size: 45px;
+   font-weight: 1000px;
+   color: rgb(0, 0, 0);
+   padding-top: 60px;
+   margin:0;
+   
+}
+
+.blocco .articolo .immagineart{
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+   border: 2px solid rgb(0, 0, 0);
+
+}
+
+h3.titolo_drone{
+   text-align: center;
+   color: rgb(53, 126, 110);
+   font-size: 40px;
+}
+
+/*=======================================================================================================*/
+
+
+
+#contenitore_portfolio {
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   width: 90%;
+   margin: auto;
+}
+
+
+
+#portfolio{
+   text-align: center;
+   color: rgb(39, 153, 144);;
+   font-size: 6vw;
+   text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+
+}
+
+#flex_container{
+   display:flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+ }
+
+
+
+ #flex_container div{
+   height: 100%;
+   width: calc(50% - 20px);
+   margin-bottom: 4vw;
+ }
+
+ #flex_container div img{
+   width: 100%;
+   height: 27vw;
+   border-radius: 10px;
+   border: 2px solid black;
+ }
+
+
+/*=======================================================================================================*/
+
+
+
+footer.piede{
+   font-family: monospace;
+   height: 5vw;
+   background-color: rgb(39, 153, 144);
+   color: yellow;
+   border-top: 2px solid black;
+   margin: 0;
+   margin-top: 100px;
+}
+
+p.profilo_footer{
+   text-align: center;
+   font-weight: bold;
+   font-size:1.4vw;
+}
+
+/* =========================================================================================*/
+
+@media (max-width: 700px) {
+
+   header{
+      height: 100vw;
+   }
+
+   header:before{
+      content: "";
+      background-color: rgba(0, 0, 0, 0.3);
+      position: absolute;
+      top: 12vw;
+      bottom: 0;
+      height: 80vw -12vw;
+      width: 100%;
+   }  
+   header nav{
+      background-color: rgb(39, 153, 144);
+      height: 12vw;
+      border-bottom: 2px solid black;
+      display: flex;
+      justify-content:space-around;
+      align-items: center;
+   }
+   
+   header nav a{
+      padding: 1px 10px ;
+      font-size: 5vw;
+   }
+   header h1 em{
+      
+      font-size: 7vw;
+      letter-spacing: 2px;
+      text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+   }
+
+   header h1 strong{
+      font-size: 6.5vw;
+      padding: 2px 5px ;
+   }
+   a.button{
+      padding: 2px 20px;
+      color: yellow;
+      border: 2px solid yellow;
+      background-color: rgba(78, 78, 78, 0.685);
+      border-radius: 10px;
+      font-size: 4vw;
+   }
+   
+   #LOGO_DRONE_NAV{
+      height: 10vw;
+      width: 15vw;
+   }
+
+
+   #logo img{
+      margin-top: -10px;
+      height: 30vw;
+      width: 30vw;
+      border: 2px solid black;
+      border-radius: 100px;
+   }
+   
+   p.profilo1{
+      text-align: center;
+      font-weight: bold;
+      font-size: 8vw;
+      margin-top: 10px;
+      color: yellow;
+   
+   }
+   p.profilo2{
+      margin-top: -10vw;
+      text-align: center;
+      font-size: 6vw;
+      color: yellow;
+   }
+
+
+
+
+
+
+
+
+.contenitore{
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   width: 70%;
+   margin: auto;
+}
+
+
+div.contenitore .blocco{
+   display: flex;
+   justify-content: flex-start;
+   flex-grow: 1;
+   width: 100%;
+}
+
+
+
+.blocco .articolo h2 {
+   font-size:3vw;
+   margin: 28px 0px 10px 20px;
+}
+
+
+#grassetto {
+   font-size: 3.4vw;
+   margin: 20px 0px 20px 0px; 
+   width: 25vw;
+   color: rgb(53, 126, 110);
+}
+.blocco .articolo h2 {
+   font-size:3vw;
+   margin: 20px 0px 10px 0px;
+}
+
+div.contenitore .blocco .articolo{
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+   width: 80vw;
+   padding: 30px 0px 30px 0px;
+   margin: 0px;
+
+}
+
+div.contenitore .blocco .articolo .dentro{
+   display: flex;
+   height: 100%;
+   width:auto;
+   margin: 0px;
+}
+
+
+#contenitore_portfolio {
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   width: 80%;
+   margin: auto;
+}
+
+
+
+#portfolio{
+   text-align: center;
+   color: rgb(53, 126, 110);
+   font-size: 10vw;
+
+}
+
+
+
+#flex_container div{
+   height: 100%;
+   width: calc(100% - 20px);
+   margin-bottom: 8vw;
+ }
+
+ #flex_container div img{
+   width: 100%;
+   height: 50vw;
+   border-radius: 8px;
+   border: 2px solid black;
+ }
+
+
+   footer.piede{
+      height: 14vw;
+      margin-top: 40px;
+   }
+   
+   p.profilo_footer{
+
+      font-size:3vw;
+   }
+
+}
+
+
+
+
+

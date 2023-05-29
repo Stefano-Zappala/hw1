@@ -1,0 +1,325 @@
+body{
+   margin: 0;
+   font-family: 'Teko', sans-serif;
+   background-color: rgb(224, 224, 224);
+}
+
+header{
+   color: rgb(255, 255, 255);
+   background-image: url("image/karl-greif-H5IXIH254AU-unsplash.jpg");
+   background-position: center;
+   background-size: cover;
+   height: 45vw;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   border-bottom: 2px solid black;
+}
+header:before{
+   content: "";
+   background-color: rgba(0, 0, 0, 0.3);
+   position: absolute;
+   top: 60px;
+   bottom: 0;
+   height: 40vw -60px;
+   width: 100%;
+}
+
+header nav{
+   background-color: rgb(39, 153, 144);
+   height: 60px;
+   border-bottom: 2px solid black;
+   display: flex;
+   justify-content:space-around;
+   align-items: center;
+}
+
+header nav a{
+   color: black;
+   background-color: rgba(221, 221, 221, 0.876);
+   border: 1px solid black;
+   border-radius: 10px;
+   padding: 1px 18px ;
+   font-size: 27px;
+}
+
+header nav a:hover{
+   color: yellow;
+   background-color: rgba(78, 78, 78, 0.548);
+}
+
+#LOGO_DRONE_NAV{
+   height: 80px;
+   width: 150px;
+}
+
+/*=======================================================================================================*/
+div.titolo{
+   margin-top: 60px;
+   display: flex;
+   justify-content:space-around;
+   align-items: center;
+}
+
+header h1{
+   text-align: center;
+   z-index: 1;
+}
+
+header h1 em{
+   color: yellow;
+   font-size: 5vw;
+   letter-spacing: 2px;
+   text-shadow: -4px 0 #000, 0 4px #000, 4px 0 #000, 0 -4px #000;
+}
+
+header h1 strong{
+   font-size: 4.1vw;
+   color: rgb(2, 2, 2);
+   font-family:'Times New Roman', Times, serif;
+   background-color: rgba(190, 186, 186, 0.952);
+   padding: 2px 20px ;
+   max-width: 780px;
+   margin-top: 100px;
+}
+
+a.nome{
+   color: rgb(110, 61, 223);
+   font-size: 4vw;
+   text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+   background-color: rgba(179, 179, 179, 0.521);
+   padding: 5px 30px ;
+   border-radius: 30px;
+   border: 2px solid black;
+}
+
+a.nome:hover{
+   color: yellow;
+   font-size: 4vw;
+   text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
+a.button{
+   padding: 2px 20px;
+   color: yellow;
+   border: 2px solid yellow;
+   background-color: rgba(78, 78, 78, 0.685);
+   border-radius: 18px;
+   font-size: 2.5vw;
+}
+
+a.button:hover{
+   background-color: rgb(39, 153, 144);
+   color: yellow;
+}
+
+/*=======================================================================================================*/
+
+
+.contenitore{
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   width: 70%;
+   margin: auto;
+}
+
+
+div.contenitore .blocco{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   flex-grow: 1;
+   width: 100%;
+}
+
+
+div.contenitore .blocco .articolo{
+   display: flex;
+   height: 450px;
+   width: 66vw;
+   margin: 0px;
+}
+
+.blocco  h1 {
+   text-align:center;
+   font-size: 5.2vw;
+   color: rgb(39, 153, 144);
+   margin-top: 4vw;
+   margin-bottom: 4vw;
+   text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
+.blocco .articolo .testo{
+   text-align:justify;
+   font-size: 2vw;
+   letter-spacing: 2px;
+   margin-inline:  5px;
+   margin-top: 20px;
+   margin-bottom:30px;
+   margin-right: 40px;
+   line-height: 2.5vw;
+}
+
+.blocco .articolo .testo em{
+   font-size: 2.3vw;
+   color: rgb(53, 126, 110);
+}
+
+
+.contenitoreimg{
+   margin-top:20px;
+}
+
+.blocco .articolo .immagineart{
+   height: 17vw;
+   width: 25vw;
+   margin-left: auto;
+   margin-right: auto;
+   border: 2px solid rgb(0, 0, 0);
+   border-radius: 10px;
+
+}
+
+/*=======================================================================================================*/
+
+footer.piede{
+   font-family: monospace;
+   height: 5vw;
+   background-color: rgb(39, 153, 144);
+   color: yellow;
+   border-top: 2px solid black;
+   margin: 0;
+   margin-top: 100px;
+}
+
+p.profilo_footer{
+   text-align: center;
+   font-weight: bold;
+   font-size:1.4vw;
+}
+
+/* =========================================================================================*/
+
+
+@media (max-width: 700px) {
+
+   header{
+      height: 100vw;
+   }
+
+   header:before{
+      content: "";
+      background-color: rgba(0, 0, 0, 0.3);
+      position: absolute;
+      top: 12vw;
+      bottom: 0;
+      height: 80vw -12vw;
+      width: 100%;
+   }  
+   header nav{
+      background-color: rgb(39, 153, 144);
+      height: 12vw;
+      border-bottom: 2px solid black;
+      display: flex;
+      justify-content:space-around;
+      align-items: center;
+   }
+   
+   header nav a{
+      padding: 1px 10px ;
+      font-size: 5vw;
+   }
+   header h1 em{
+      
+      font-size: 7vw;
+      letter-spacing: 2px;
+      text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+   }
+
+   header h1 strong{
+      font-size: 6.5vw;
+      padding: 2px 5px ;
+   }
+   a.button{
+      padding: 2px 20px;
+      color: yellow;
+      border: 2px solid yellow;
+      background-color: rgba(78, 78, 78, 0.685);
+      border-radius: 10px;
+      font-size: 4vw;
+   }
+   
+   #LOGO_DRONE_NAV{
+      height: 10vw;
+      width: 15vw;
+   }
+   
+   div.contenitore .blocco .articolo{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height:100vw;
+      width: 70vw;
+      margin: 0px;
+      margin-bottom: 30px;
+   }
+
+   .blocco  h1 {
+      text-align:center;
+      font-size: 12vw;
+      color: rgb(39, 153, 144);
+      margin-top: 6vw;
+      margin-bottom: 1vw;
+      text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+   }
+   
+   .blocco .articolo .testo{
+      text-align:left;
+      font-size: 4vw;
+      letter-spacing: 4px;
+      margin-inline:  5px;
+      line-height: 3.5vw;
+   }
+   
+   .blocco .articolo .testo em{
+      font-size: 4.4vw;
+      color: rgb(53, 126, 110);
+   }
+   
+   
+   .contenitoreimg{
+      height: 40vw;
+      width: 60vw;
+      margin-left: -2vw;
+      margin-top:0px;
+   }
+
+   
+   .blocco .articolo .immagineart{
+   height: 100%;
+   width:  100%;
+   margin-left: auto;
+   margin-right: auto;
+   border: 2px solid rgb(0, 0, 0);
+   border-radius: 10px;
+
+}
+
+
+
+   footer.piede{
+      height: 14vw;
+   }
+   
+   p.profilo_footer{
+
+      font-size:3vw;
+   }
+   
+}
+
+
+
+
+
